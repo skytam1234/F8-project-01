@@ -44,15 +44,28 @@ text-align: center;
     background: #E6F0FF;
 }
 /* nav */
-.navbar {
-    display: flex;
-    align-items: center;
-    padding-top: 38px;
+.header-fix{
+    background: #E6F0FF;    
+    padding-top: 26px;
+    top: -26px;
+    position: sticky;
+    z-index: 1;
     
 }
-.header .navbar ul{
+.navbar {
+    display: flex;
+    align-items: center;   
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+            
+}
+.header-fix .navbar ul{
     margin-left: 50px;
     display: flex;
+    
+
+    
 }
 
 .navbar ul a{    
@@ -80,7 +93,7 @@ font-size: 1.4rem;
 /* hero info */
 .hero{
 
-    margin-top: 130px;
+    padding-top: 130px;
 }
 .hero .info{
     width: 51%;
